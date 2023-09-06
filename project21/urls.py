@@ -20,6 +20,8 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('insert_webpage/',insert_webpage,name='insert_webpage'),
+    path('select_and_display/',select_and_display,name='select_and_display'),
+    path('checkbox/',checkbox,name='checkbox'),
 ]
 
 
